@@ -1,0 +1,1 @@
+# implementation of cross cutting concerns (similar functions) using the render prop. This help utilize the reusability of code
