@@ -1,6 +1,11 @@
 import * as React from "react";
 import "./styles.css";
 
+/**
+ * React.Children.map -  The first argument is the children prop, and the second argument is a 
+ * transformation function that returns a new React element.
+ * 
+ */
 export const RadioGroup = ({ onChange, selected, children }) => {
   // Use React.Children.map and React.cloneElement to clone the children
   // and pass the correct props to each RadioOption
