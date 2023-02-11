@@ -94,7 +94,12 @@ const Header = ({ translateY }) => {
             <HStack spacing={4}>
               {socials.map((item, index) => {
                 return (
-                  <a key={index} href={item.url} target="_blank">
+                  <a
+                    key={index}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={item.icon} size="2x" />
                   </a>
                 );
