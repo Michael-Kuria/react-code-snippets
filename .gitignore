@@ -1,3 +1,5 @@
 #dependencies
 radio-group-component/node_modules
 using-render-prop/node_modules
+react-testing/node_modules
+portfolio-in-react/node_modules

@@ -12,10 +12,10 @@ describe("Feedback Form", () => {
 
     // Access the range input value and change it's value
     const rangeInput = screen.getByLabelText(/Score:/);
-    fireEvent.change(rangeInput, { target: { value: `${score}` } });
+    fireEvent.change(rangeInput, { target: { value: score } });
 
     const commentArea = screen.getByLabelText(/Comments:/);
-    fireEvent.change(commentArea, { target: { value: `${comment}` } });
+    fireEvent.change(commentArea, { target: { value: comment } });
 
     // Access the sumbit button and click it
     const submitButton = screen.getByRole("button");
