@@ -1,11 +1,10 @@
 #dependencies
 radio-group-component/node_modules
 using-render-prop/node_modules
-<<<<<<< HEAD
 react-testing/node_modules
 portfolio-in-react/node_modules
-=======
 authentication/node_modules
 portfolio-in-react/node_modules
 react-testing/node_modules
->>>>>>> 640cde59e52ca8c7b05ce4568d7e76ec327e3752
+dropdown/node_modules
+
